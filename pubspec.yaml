@@ -58,9 +58,14 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
+<<<<<<< HEAD
    assets:
      - assets/images/slg.jpg
      - assets/images/kelud.jpg
+=======
+  assets:
+    - assets/images/
+>>>>>>> ceee1fe (Initial commit)
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -73,6 +78,7 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+<<<<<<< HEAD
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -85,5 +91,17 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+=======
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
+>>>>>>> ceee1fe (Initial commit)
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

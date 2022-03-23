@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+import 'package:flutter_layout/main_screen.dart';
+>>>>>>> ceee1fe (Initial commit)
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
       title: 'Contacts',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -65,6 +70,13 @@ class DetailScreen extends StatelessWidget {
           ],
         ),
       ),
+=======
+      title: 'Kediri Lagi',
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
+      ),
+      home: MainScreen(),
+>>>>>>> ceee1fe (Initial commit)
     );
   }
 }
